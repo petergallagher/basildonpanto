@@ -44,6 +44,10 @@ body,
     font-size: 5rem !important;
   }
 
+  .carousel .view {
+    background-position: center;
+  }
+
   footer {
     height: 330px !important;
   }
