@@ -34,6 +34,9 @@ body,
   .sleeping-beauty {
     font-size: 5rem !important;
   }
+  footer {
+    height: 330px !important;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -48,6 +51,7 @@ body,
   }
   footer {
     background-size: contain !important;
+
   }
 }
 
