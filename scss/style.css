@@ -97,7 +97,7 @@ body {
 }
 
 .card {
-  height: 240px;
+  min-height: 240px;
 }
 .card .card-text.price {
   font-size: 2rem !important;

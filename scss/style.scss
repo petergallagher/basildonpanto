@@ -90,7 +90,7 @@ body {
 }
 
 .card {
-  height: 240px;
+  min-height: 240px;
   .card-text.price {
     font-size: 2rem !important;
     color: rgb(69, 112, 107) !important;
