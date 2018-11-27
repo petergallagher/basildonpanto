@@ -37,7 +37,24 @@ body,
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   .navbar {
-    background-color: #929FBA;
+    background-color: #582d4b;
+  }
+
+  .sleeping-beauty {
+    font-size: 5rem !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .carousel .view {
+    background-size: contain !important;
+  }
+  .carousel .display-4 {
+    font-size: 2rem !important;
+  }
+
+  footer {
+    background-size: cover !important;
+    height: 330px !important;
   }
 }
 /* Footer color for sake of consistency with Navbar */
@@ -57,6 +74,13 @@ body {
 .sleeping-beauty {
   font-family: "Glass Antiqua", cursive;
   font-size: 7rem;
+}
+
+.carousel .view {
+  background-image: url("../img/head.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #45706b;
 }
 
 .bottom-main-padding {
