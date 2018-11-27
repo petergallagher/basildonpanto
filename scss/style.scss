@@ -36,6 +36,10 @@ body,
 .page-footer {
   background-color: #929FBA; }
 
+html, body, header, .carousel {
+  height: 100vh;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   background: rgb(232, 241, 240);
@@ -43,6 +47,7 @@ body {
 
 .sleeping-beauty {
   font-family: 'Glass Antiqua', cursive;
+  font-size: 7rem;
 }
 
 .bottom-main-padding {
@@ -66,16 +71,9 @@ body {
   }
 }
 
-
 footer {
-  position: fixed;
-  width: 100%;
-  background-image: url('../img/banner.jpg');
+  background-image: url('../img/footer.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40vh;
-  z-index: 1000;
-  hr {
-    padding-top: 100px;
-  }
+  height: 550px;
 }

@@ -45,6 +45,10 @@ body,
   background-color: #929FBA;
 }
 
+html, body, header, .carousel {
+  height: 100vh;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background: #e8f1f0;
@@ -52,6 +56,7 @@ body {
 
 .sleeping-beauty {
   font-family: "Glass Antiqua", cursive;
+  font-size: 7rem;
 }
 
 .bottom-main-padding {
@@ -76,16 +81,10 @@ body {
 }
 
 footer {
-  position: fixed;
-  width: 100%;
-  background-image: url("../img/banner.jpg");
+  background-image: url("../img/footer.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40vh;
-  z-index: 1000;
-}
-footer hr {
-  padding-top: 100px;
+  height: 550px;
 }
 
 /*# sourceMappingURL=style.css.map */
