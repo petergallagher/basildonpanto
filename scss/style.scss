@@ -1,0 +1,77 @@
+// Your custom styles
+
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Half Page Carousel itself*/
+.carousel {
+  height: 50%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Adjustment for mobile devices*/
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%; } }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.top-nav-collapse {
+  background-color: rgb(88, 45, 75); }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #929FBA; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #929FBA; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: rgb(232, 241, 240);
+}
+
+.sleeping-beauty {
+  font-family: 'Glass Antiqua', cursive;
+}
+
+.bottom-main-padding {
+  height: 40vh;
+}
+
+#map {
+  height: 300px;
+}
+
+.fa-map-marker-alt {
+  font-size: 5rem;
+  color: rgb(88, 45, 75);
+}
+
+.card-text.price {
+  font-size: 2rem !important;
+  color: rgb(69, 112, 107) !important;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  background-image: url('../img/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  z-index: 1000;
+  hr {
+    padding-top: 100px;
+  }
+}
