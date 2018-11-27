@@ -260,7 +260,8 @@
     // Animations initialization
     new WOW().init();
 
-    var map = L.map('map').setView([51.5687379, 0.4466857], 14);
+    const map = L.map('map').setView([51.5687379, 0.4466857], 14);
+    map.scrollWheelZoom.disable();
 
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoicGV0ZXJnYWxsYWdoZXIiLCJhIjoiY2pvem1qZDJzMjVjODN3czNxZHFxemt5ciJ9.TK6SlSN6Bw_qhcabkMNs_w', {
       maxZoom: 18,
@@ -270,7 +271,7 @@
       id: 'mapbox.streets'
     }).addTo(map);
 
-    var marker = L.marker([51.5687379, 0.4466857]).addTo(map);
+    const marker = L.marker([51.5687379, 0.4466857]).addTo(map);
     marker.bindPopup("Holy Trinity Church Hall, Wickhay, Basildon, SS15 5AD");
   </script>
 </body>
