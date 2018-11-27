@@ -67,7 +67,10 @@ body {
   color: #582d4b;
 }
 
-.card-text.price {
+.card {
+  height: 240px;
+}
+.card .card-text.price {
   font-size: 2rem !important;
   color: #45706b !important;
 }

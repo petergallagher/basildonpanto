@@ -58,10 +58,14 @@ body {
   color: rgb(88, 45, 75);
 }
 
-.card-text.price {
-  font-size: 2rem !important;
-  color: rgb(69, 112, 107) !important;
+.card {
+  height: 240px;
+  .card-text.price {
+    font-size: 2rem !important;
+    color: rgb(69, 112, 107) !important;
+  }
 }
+
 
 footer {
   position: fixed;
